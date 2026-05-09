@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(awk 'NR>=531 && NR<=560' /Users/rbsw/Documents/Proyectos/sv-tenis/svtenis.html)",
+      "Bash(awk 'NR>=995 && NR<=1030' /Users/rbsw/Documents/Proyectos/sv-tenis/svtenis.html)",
+      "Bash(awk 'NR==563' /Users/rbsw/Documents/Proyectos/sv-tenis/svtenis.html)",
+      "Bash(sed -i '' 's|  <video id=\"intro-video\" src=\"Img/seba_gif.gif\" autoplay muted loop playsinline aria-label=\"Logo animado de SV Tennis\"></video>|  <img id=\"intro-video\" src=\"Img/seba_gif.gif\" alt=\"Logo animado de SV Tennis\">|' /Users/rbsw/Documents/Proyectos/sv-tenis/svtenis.html)"
+    ],
+    "additionalDirectories": [
+      "/Users/rbsw/Documents/Proyectos/sv-tenis"
     ]
   }
 }
